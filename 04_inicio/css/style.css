@@ -5,9 +5,12 @@ h1, p{
 
 strong {
     font-weight: normal;
-    display: block;
     
 }
+#p001 {
+    color: brown
+}
+
 
 body ¨{color: crimson}
 
