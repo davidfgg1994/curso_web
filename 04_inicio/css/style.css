@@ -7,10 +7,25 @@ strong {
     font-weight: normal;
     
 }
-#p001 {
-    color: brown
+
+/* {ES UNA MALA PRACTICA USAR LOS ID EN CSS */
+    #POO1 {
+        color: brown
+    }
+
+}*/
+
+.destacado¨{ 
+    body ¨{color: crimson}  
+    
+}
+.centrado {
+    text-align: center
+}
+h1 {
+    text-align: center
 }
 
-
-body ¨{color: crimson}
-
+pre{
+    font-family: 'Courier New', Courier, monospace
+}
