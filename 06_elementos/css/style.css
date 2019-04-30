@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .main_header {
     background-color: brown;
     color: bisque;
@@ -12,13 +16,15 @@
     font-weight: 
     text-align: center;
     padding: 1rem
- 
-
-.h4
-{margin-block-start: }
-
-.section_header{border: 1px crimson}
-
-.section_footer {
-    border-top: 1px solid cornflowerblue
 }
+
+.content_wrapper {
+    margin: 1rem 3rem;
+
+    }
+    .image_wrapper {
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+    }
