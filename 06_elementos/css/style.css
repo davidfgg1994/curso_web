@@ -23,6 +23,7 @@ body {
 
     }
     .image_wrapper {
+        margin: 0%
         text-align: center;
     }
     img {
