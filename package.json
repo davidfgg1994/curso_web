@@ -1,0 +1,25 @@
+{
+  "name": "curso_web",
+  "version": "1.0.0",
+  "description": "ejercicios del curso de paginas web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfgg1994/curso_web.git"
+  },
+  "keywords": [
+    "HTML",
+    "Web",
+    "CSS"
+  ],
+  "author": "David Fernández-Gallardo Gutiérrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidfgg1994/curso_web/issues"
+  },
+  "homepage": "https://github.com/davidfgg1994/curso_web#readme",
+  "dependencies": {}
+}
