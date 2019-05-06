@@ -21,5 +21,7 @@
     "url": "https://github.com/davidfgg1994/curso_web/issues"
   },
   "homepage": "https://github.com/davidfgg1994/curso_web#readme",
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
