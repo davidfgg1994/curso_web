@@ -65,3 +65,6 @@ font-weight: normal;
 .clearfix {
     clear: both;
 }
+footer a {
+    color: inherit;
+}
