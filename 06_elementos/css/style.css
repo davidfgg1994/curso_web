@@ -68,3 +68,13 @@ font-weight: normal;
 footer a {
     color: inherit;
 }
+
+.verde{
+    color: chartreuse;
+    font-weight: bold
+    
+}
+
+/* strong {
+    font-weight: normal
+} */
