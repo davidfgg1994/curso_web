@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,19 +38,67 @@
                             <li>svg</li>
                             <li>(webp)</li>
                         </ul>
-             
-                <ul>
-                    <li>Video y audio</li>
-                    <ul>
-                        <li>mp4</li>
-                        <li>ogg</li>
-                        <li>webn</li>
-                    </ul>
-                    <li>
-                       <li>Elementos de navegación gráficos</li>    
                     </li>
-                </ul> 
-            </section>
+                    <li>Video y audio
+                        <ul>
+                            <li>mp4</li>
+                            <li>ogg</li>
+                            <li>webn</li>
+
+                        </ul>
+                    </li>
+                    <li>Elementos de navegación gráficos</li>
+
+                </ul>
+                <section class="seccion_imagenes">
+
+
+                    <h3>Imágenes</h3>
+
+                    <div>
+                        <!-- /<img src="./assets/komodo.300.jpg" alt="dragón de komodo mostrando su lengua"> -->
+                        <img src="./assets/WoodElf.png" alt="elfo con arco">
+                        <img src="./assets/ardilla.gif" alt="ardilla">
+                        <img srcset="./assets/3boats.webp" src="./assets/3boats.jpg" alt="Barcas">
+
+                    </div>
+                    <div class="clearfix">
+                        <p>Uso de imágenes responsives en HTML</p>
+                        <div>
+                            <img srcset="./assets/komodo.300.jpg 300w,
+                        ./assets/komodo.400.jpg 400w,
+                        ./assets/komodo.500.jpg 500w,
+                        ./assets/komodo.jpg 600w" sizes="(max-width: 300px),
+                        (max-width: 400px),
+                        (max-width: 500px)" src="./assets/komodo.jpg" alt="Komodo">
+                        </div>
+                        <p>Etiqueta picture</p>
+                        <picture>
+
+                            <source media="(min-width: 600px)" srcset="./assets/DJI_0085_1.jpg" type="image/jpg">
+                            <source media="(min-width: 500px)" srcset="./assets/DJI_0085_1 (2).jpg" type="image/jpg">
+                            <source media="(min-width: 400px)" srcset="./assets/DJI_0085_1 (3).jpg" type="image/jpg">
+                            <source src="./assets/DJI_0085_1 (4).jpg" type="image/jpg">
+                            <img src="./assets/DJI_0085_1 Original.jpg" alt="Toledo">
+
+
+                        </picture>
+
+
+
+
+
+
+                        <div class="clearfix">
+                            <section>
+                                <h3>Video y Audio</h3>
+                            </section>
+                            <section>
+                                <h3>Elementos de Navegación Gráficos</h3>
+                            </section>
+
+                </section>
+
     </main>
     <aside>
         <h2>Publicidad</h2>
@@ -65,6 +114,7 @@
         </address>
     </footer>
 </body>
+
 </html>
 </body>
 
