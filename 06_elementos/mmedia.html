@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Multimedia-Elementos de la Web</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -19,6 +22,9 @@
                 <li><a href="./index.html#Grouping" rel="tag">Grouping</a></li>
                 <li><a href="./index.html#Text-level" rel="tag">Text-level</a></li>
                 <li><a href="#">Multimedia</a></li>
+                <li><a href="./datos.html#tablas">Tablas</a></li>
+                <li><a href="#./datos.html#form">Formularios</a></li>
+
             </ul>
         </nav>
     </header>
@@ -69,13 +75,15 @@
                             <img srcset="./assets/komodo.300.jpg 300w,
                         ./assets/komodo.400.jpg 400w,
                         ./assets/komodo.500.jpg 500w,
-                        ./assets/komodo.jpg 600w" sizes="(max-width: 300px),
-                        (max-width: 400px),
-                        (max-width: 500px)" src="./assets/komodo.jpg" alt="Komodo">
+                        ./assets/komodo.jpg 600w" 
+                        sizes="(max-width: 300px) 300px,
+                        (max-width: 400px) 400px,
+                        (max-width: 500px) 500px" 
+                        src="./assets/komodo.jpg" alt="Komodo">
                         </div>
                         <p>Etiqueta picture</p>
                         <picture>
-                            <source media="(min-width: 600px)" srcset="./assets/DJI_0085_1.jpg" type="image/jpg">
+                            <source media="(min-width: 600px)" srcset="./assets/DJI_0085_1.jpg" type="image/jpg" >
                             <source media="(min-width: 500px)" srcset="./assets/DJI_0085_1_500.jpg" type="image/jpg">
                             <source media="(min-width: 400px)" srcset="./assets/DJI_0085_1_400.jpg" type="image/jpg">
                             <source srcset="./assets/DJI_0085_1_300.jpg" type="image/jpg">
@@ -116,12 +124,17 @@
                                 <video controls>
                                     <source src="./assets/Ghost_in_the_Shell_Opening.webm" type="video/webm">
                                     <source src="./assets/Ghost_in_the_Shell_Opening.mp4" type="video/mp4">
+                                        <audio src="./assets/Avicii - Wake Me Up [www.slider.kz].mp3"><mp3/audio>
                                 
                             </video>
 
                             </section>
                             <section>
                                 <h3>Elementos de Navegación Gráficos</h3>
+                                <p>En HTML antiguo se usaba la etiqueta map para definir un hotspot</p>
+                                <p>en HTML 5 se puede conseguir este efecto usando svg</p>
+                                <embed src="./assets/logo.svg" type="image/svg+xml">
+                                    <p>Tamboien relacionados con la navegación gráfica estaría el uso de iconos en los menús</p>
                             </section>
 
                 </section>
@@ -129,6 +142,12 @@
                     <h3>Elementos embebidos no multimedia</h3>
                     <p>La etiqueta iframe permite acceder a otra web desde la nuestra</p>
                     <iframe class="web_externa" src="http://dflyservices.com"></iframe>
+                    <p>Otros elementos externos embebidos con etiqueta object y embed</p>
+                    <p> object</p>
+                    <object data="http://dflyservices.com" type=""></object>
+                    <p>embed</p>
+                    <embed src="http://dflyservices.com" type="">
+
 
                 </aside>
 
@@ -146,6 +165,13 @@
             <p>David Fernández-Gallardo Gutiérrez - D-Fly Services &copy;</p>
             <a rel="author" href="mailto://davidfdz12@gmail.com" target="_blank">Enviar correo</a>
         </address>
+        <aside>
+            <a href="http://facebook.com" rel="external" title="facebook" ><i class="fab fa-facebook "></i></a>
+            <a href="http://linkedin.com" rel="external" title="linkedin" ><i class="fab fa-linkedin"></i></a>
+            <a href="http://twitter.com" rel="external" title="twitter" ><i class="fab fa-twitter-square"></i></a>
+            <a href="https://github.com/davidfgg1994" rel="external" title="Github" ><i class="fab fa-github-square"></i></a>
+    
+            </aside>
     </footer>
 </body>
 
