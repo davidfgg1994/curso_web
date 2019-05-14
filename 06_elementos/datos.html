@@ -30,10 +30,11 @@
     </header>
     <div class="content_wrapper" >
     <main>
-        <section>
-        <h2>TAblas</h2>
+        <section >
+        <h2>Tablas</h2>
         <p>Ejemplo de tabla del uso de los navegadores</p>
-   <table border="1" > 
+        <caption>Uso de los navegadores a lo largo en los ultimos años</caption>
+   <table class="main_table" border="1"> 
        <tr>
            <td></td>
            <td>2017</td>
@@ -42,47 +43,86 @@
        </tr>
        <tr>
            <td>Google Chrome</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>55%</td>
+           <td>35,76%</td>
+           <td>39%</td>
        </tr>
        <tr>
-           <td>Firefox</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>Mozilla Firefox</td>
+           <td>3%</td>
+           <td>7,21%</td>
+           <td>9,34%</td>
        </tr>
        <tr>
            <td>UC Browser</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>4,41</td>
+           <td>32,7%</td>
+           <td>6,16</td>
        </tr>
        <tr>
            <td>Safari</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>15,13</td>
+           <td>20,37%</td>
+           <td>44%</td>
        </tr>
        <tr>
-           <td>mozilla</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>Internet explorer</td>
+           <td>2,2%</td>
+           <td>11,7%</td>
+           <td>7,5%</td>
        </tr>
        <tr>
            <td>Opera</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>1,5%</td>
+           <td>13,2%</td>
+           <td>4,32%</td>
        </tr>
        <tr>
            <td>Otros</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>7,85%</td>
+           <td>9%</td>
+           <td>10%</td>
        </tr>
    </table>
+
+   <p>Ejemplo de Tabla irregular</p>
+
+ <table class="main_table" border="1">
+     <tr>
+         <th rowspan="2" colspan="2" scope="colgroup"><p>Preferencias de viajes</p></th>
+         <th colspan="3" scope="colgroup"><p>Destinos</p></th>
+         
+     </tr>
+     <tr>
+         <th scope="col"> <p>Caribe</p></th>
+         <th scope="col"><p>Europa</p></th>
+         <th scope="col"><p>Oriente</p></th>
+       
+     </tr>
+     <tr>
+         <th rowspan="3" scope="rowgroup">Rangos de edad</td> 
+         <th scope="row"><p>Menores de 18 años</p></t>
+         <td><p>38%</p></td>
+         <td><p>25%</p></td>
+         <td><p>36%</p></td>
+     </tr>
+     <tr>
+        
+         <th scope="rowgroup"><p>Entre 18 y 30</p></th>
+         <td><p>32%</p></td>
+         <td>37%</td>
+         <td><p>24%</p></td>
+     </tr>
+     <tr>
+
+         <th scope="rowgroup">Mayores de 30</th>
+         <td><p>30%</p></td>
+         <td><p>38%</p></td>
+         <td><p>40%</p></td>
+     </tr>
+ </table>
+
+
  
     </main>
 </section>
@@ -90,6 +130,29 @@
     <header>
         <h2>Formularios</h2>
     </header>
+    <p>Los formularios se incluyen dentro de la etiqueta forms</p>
+    <p>En ellos se utilizan los siguientes controles</p>
+    <ul>
+
+        <li>Imput - text</li>
+        <li>text area</li>
+        <li>checkbox</li>
+        <li>radio buttons</li>
+        <li>select /options</li>
+        <li>botones</li>
+    
+    </ul>
+    <p>La etiqueta form tiene dos atributos importantes</p>
+    <ul>
+        <li>action</li>
+        <li>method</li>
+    </ul>
+    <form action="https://jsonplaceholder.typicode.com/users" method="POST">
+     <input type="text" name="userName" placeholder="Nombre y Apellidos">
+     <input type="password" name="pass" placeholder="password"> 
+     <button type="submit">Enviar</button>
+    </form>
+
 </section>
     <aside>
         <h2>Publicidad</h2>

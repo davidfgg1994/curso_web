@@ -172,3 +172,7 @@ vide0, embed {
 .sinborde {
     border: 0ch
 }
+.main_table {
+    width: 100%;
+text-align: center;
+}
