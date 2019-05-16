@@ -176,3 +176,20 @@ vide0, embed {
     width: 100%;
 text-align: center;
 }
+
+.form_control {
+    display: block;
+    widows: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 1rem;
+
+    
+}
+
+.form_label {
+    margin-top: 1rem;
+    border-color: bisque;
+}
