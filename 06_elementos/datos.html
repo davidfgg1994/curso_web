@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,12 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/app.js type="module"></script>
 </head>
+
 <body id="inicio">
     <header class="main_header">
         <h1>Etiquetas de HTML</h1>
@@ -28,7 +32,6 @@
     </header>
     <div class="content_wrapper">
         <main>
-<<<<<<< HEAD
             <section id="tablas">
                 <header>
                     <h2>Tablas</h2>
@@ -46,7 +49,7 @@
                         <th scope="row">Google Chrome</th>
                         <td></td>
                         <td>61,55 %</td>
-                        <td >
+                        <td>
                             <table class="centrar">
                                 <tr>
                                     <td>C67</td>
@@ -180,48 +183,48 @@
                     <button type="submit">Enviar</button>
                 </form>
                 <h4>Uso de POST</h4>
-                <form action="https://jsonplaceholder.typicode.com/users"
-                    name="basic-post" method="POST">
+                <form action="https://jsonplaceholder.typicode.com/users" name="basic-post" method="POST">
                     <input type="text" name="userName" placeholder="Dime tu nombre">
                     <input type="password" name="userPasswd" placeholder="Dime tu password">
                     <button type="submit">Enviar</button>
                 </form>
                 <h3>Formulario más completo</h3>
                 <p>Usamos en un mismo formulario los principales controles</p>
-                <form name="complete-post" method="POST"
-                    action="https://jsonplaceholder.typicode.com/users">
+                <form name="complete-post" method="POST" action="https://jsonplaceholder.typicode.com/users">
                     <fieldset id="datos_personales">
                         <legend>Datos personales</legend>
                         <label for="userName" class="form_label">
                             Nombre de usuario</label>
-                        <input type="text" name="userName" id="userName" required
-                            class="form_control" placeholder="Dime tu nombre y apellidos">
+                        <input type="text" name="userName" id="userName" required class="form_control"
+                            placeholder="Dime tu nombre y apellidos">
                         <label for="userPasswd" class="form_label">
-                            Contraseña</label>    
-                        <input type="password" name="userPasswd" id="userPasswd" required 
-                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})" class="form_control" placeholder="Dime tu password">
-                        <label for="email" class="form_label">Correo</label>
-                        <input type="email" name="email" id="email" required
-                            class="form_control" placeholder="Escribe un correo electrónico válido" value="@tajamar.es">
-                        <label for="cv" class="form_label">Formación</label>
-                        <input type="text" name="cv" id="cv" list="formacion" class="form_control"
-                            placeholder="Selecciona o indica tus estudios">
-                        <datalist id="formacion">
-                            <option>Graduado</option>
-                            <option>Licenciado</option>
-                            <option>Doctor</option>
-                        </datalist>
-                        <label for="birthDate" class="form_label">Fecha de nacimiento</label>
-                        <input type="date" name="birthDate" id="birthDate" class="form_control">      
-                        <label for="info" class="form_label">
-                            Más información</label>
-                        <textarea name="info" id="info" rows="5"
-                            placeholder="Más información" 
-                            class="form_control"></textarea>                 
+                            Contraseña
+                            <input type="password" name="userPasswd" id="userPasswd" required
+                                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})"
+                                class="form_control" placeholder="Dime tu password">
+                            <label for="email" class="form_label">Correo</label>
+                            <input type="email" name="email" id="email" required class="form_control"
+                                placeholder="Escribe un correo electrónico válido" value="@tajamar.es">
+                            <label for="cv" class="form_label">Formación</label>
+                            <input type="text" name="cv" id="cv" list="formacion" class="form_control"
+                                placeholder="Selecciona o indica tus estudios">
+                            <datalist id="formacion">
+                                <option>Graduado</option>
+                                <option>Licenciado</option>
+                                <option>Doctor</option>
+                            </datalist>
+                            <label for="birthDate" class="form_label">Fecha de nacimiento</label>
+                            <input type="date" name="birthDate" id="birthDate" class="form_control">
+                            <label for="info" class="form_label">
+                                Más información</label>
+                            <textarea name="info" id="info" rows="5" placeholder="Más información"
+                                class="form_control"></textarea>
                     </fieldset>
                     <fieldset id="condiciones">
                         <legend>Condiciones</legend>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi non perspiciatis ut excepturi dolores obcaecati ullam dignissimos. Error incidunt corrupti debitis totam ea similique ab soluta hic id pariatur.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi non perspiciatis ut
+                            excepturi dolores obcaecati ullam dignissimos. Error incidunt corrupti debitis totam ea
+                            similique ab soluta hic id pariatur.</p>
                         <input type="checkbox" name="isOk" id="isOk" required>
                         <label for="isOk">Estoy deacuerdo con las condiciones</label>
                     </fieldset>
@@ -229,12 +232,12 @@
                         <legend>Datos del curso</legend>
                         <label for="curso" class="form_label">Curso</label>
                         <!-- <select name="curso" id="curso" class="form_control" multiple size="8"> -->
-                        <select name="curso" id="curso" class="form_control" required> 
+                        <select name="curso" id="curso" class="form_control" required>
                             <option value="">Elige un valor</option>
                             <optgroup label="Desarrollo Front">
                                 <option value="HTML-01">HTML5</option>
                                 <option value="CSS-02">CSS3</option>
-                                <option value="JS-03">JavaScript</option>                                
+                                <option value="JS-03">JavaScript</option>
                             </optgroup>
                             <optgroup label="Programación Back">
                                 <option value="Node-04">Node JS</option>
@@ -245,10 +248,10 @@
                         <div class="radio_wrapper">
                             <input type="radio" name="sitio" id="madrid" value="MD" required>
                             <label for="madrid">Madrid</label>
-                            <input type="radio" name="sitio" id="sevilla" value="SV"> 
+                            <input type="radio" name="sitio" id="sevilla" value="SV">
                             <label for="sevilla">Sevilla</label>
                             <input type="radio" name="sitio" id="barna" value="BN">
-                            <label for="barna">Barcelona</label> 
+                            <label for="barna">Barcelona</label>
                         </div>
                     </fieldset>
                     <input type="submit" value="Enviar">
@@ -280,229 +283,114 @@
                 </dl>
                 <div class="clearfix"></div>
             </section>
+            <section id="interactivos">
+                <header>
+                    <h2>Elementos interactivos</h2>
+                </header>
+                <p>Permite crear un bloque con información extra que se muestra opcionalmente</p>
+                <h4>Novedades en HTML 5.1</h4>
+                <blockquote>
+
+                </blockquote>
+                <details>
+                    <p>La W3C publica el estándar HTML 5.1 y empieza a trabajar en HTML 5.2
+                        Escrito por Rubén Velasco 23 septiembre, 2016 a las 9:15
+                        programación 0 Comentarios
+                        HTML 5.1
+
+                        La W3C, conocida como «World Wide Web Consortium», es el organismo encargado de generar las
+                        recomendaciones y los estándares internacionales que aseguran la compatibilidad y el crecimiento
+                        a largo plazo de Internet. Actualmente, el estándar de programación web es HTML 5, sin embargo,
+                        este estándar no está ni de lejos acabado, por lo que los responsables del mismo han estado
+                        trabajando en el sucesor de este lenguaje, HTML 5.1, el cual ya está listo para cumplir su
+                        labor.
+
+                        Esta misma semana, la nueva versión del lenguaje estándar de programación web, HTML 5.1, ha dado
+                        el salto desde la versión «Release Candidate» a la actual «»Proposed Recommendation», siendo
+                        este el paso anterior antes de sustituir a su predecesor como nuevo estándar recomendado por la
+                        W3C. Aunque por el momento no se sabe cuándo este cambio se hará efectivo oficialmente, el
+                        desarrollo de esta nueva versión ha finalizado oficialmente, y llega con varias novedades y
+                        mejoras hacia una web más simple, rápida y segura.
+
+                        El nuevo estándar HTML 5.1 cuenta, principalmente, con 3 novedades importantes: </p>
+
+                        &lt;picture&gt; Aunque esta etiqueta no es nueva, el próximo estándar va a intentar promocionar más
+                            su uso, ya que, al ser una de las últimas incluidas en HTML 5 por la falta de tiempo, ha
+                            pasado desapercibida. Esta etiqueta es utilizada, principalmente, para añadir imágenes
+                            responsivas a la web.
+
+                            &lt;dialog&gt; Esta etiqueta permite crear cuadros de texto (generalmente informativos) dentro
+                                del código HTML para no necesitar hacer uso de JavaScript para ello.
+
+                                &lt;summary&gt; y &lt;details&gt; Estas dos etiquetas han sido diseñadas para trabajar juntas y,
+                                        aunque aún no se ha confirmado su utilidad, se cree que están diseñadas para
+                                        facilitar la creación de contenido capaz de resumirse o colapsarse en un cuadro.
+
+                                        Otros cambios del nuevo HTML 5.1 son:
+
+                                        El método HTMLElement.forceSpellcheck() permite activar o desactivar el dictado
+                                        de ciertas áreas.
+                                        El atributo «allowFullScreen» de los iframes permite indicar al navegador qué
+                                        elementos pueden funcionar en pantalla completa.
+                                        Otras funciones, como ImageBitmap y el método registerProtocolHandler().
+
+                                    <details>
+                                            <summary>
+                                                <p>Tan pronto HTML 5.1 se convierta en el nuevo estándar, algo que está
+                                                    programado para las próximas semanas, los miembros de la W3C
+                                                    empezarán a trabajar duro en la próxima revisión del estándar web,
+                                                    que se conocerá como HTML 5.2.
+
+                                                    A falta de concretar los detalles, este nuevo estándar contará,
+                                                    principalmente, con dos nuevas etiquetas importantes:
+
+                                                    < meta name=»theme-color»>. Esta etiqueta permite a los
+                                                        desarrolladores web establecer el color dominante de una web y
+                                                        utilizarlo en otras funciones o scripts, por ejemplo, para
+                                                        adaptarse de forma dinámica a un tema concreto, algo similar a
+                                                        como hace Vivaldi, que adapta el color de la barra de tareas
+                                                        según la web que visitamos o el «Material Design» de Android.
+
+                                                        < script type=»module»>. Esta nueva etiqueta supone un paso más
+                                                            en la evolución del ecosistema JavaScript, donde, poco a
+                                                            poco, se está buscando separar cada script en módulos. Un
+                                                            tema muy complejo y aún por desarrollar pero que, poco a
+                                                            poco, va cogiendo forma.</p>
+                                               </summary>
+                                                            
+                                      <h3>Etiqueta dialog</h3>
+
+                                         <p>etiqueta dialog, novedad en HTML 5.2, corresponde a lo que se conoce como una ventana modal o simplemente modal</p> 
+
+                                   
+                                         <blockquote> El atributo oppenIndica que el diálogo está activo y disponible para interactuar. Cuando el atributo open no está asignado, no debe mostrarse al usuario. </blockquote>
+                                        <dialog id="dlg-sample">    
+                                            <p>Informacion que se mostrará cuando aparezca el modal</p>
+                                            <button type="button" id="btn-cerrar">cerrar</button>   
+                                         </dialog>
+                                        
+                                         <button type="button" id="btn-info" >Mostrar información</button>   
+                                        </section>         
+
+                                  
+                </details>
+                </details>
+                <details>
+                    <summary>¿Cuales son las novedades en HTML 5.1?</summary>
+                </details>
+            </section>
         </main>
         <aside>
             <h2>Publicidad</h2>
             <p>Aquí iría la publicidad</p>
-        </aside>  
+            <template id="publi-extra">
+                <p>Aqui podemos incluir cualquier etiqueta</p>
+            </template>
+            <section class="canvas"></section>
+            <canvas id="cnv"></canvas>
+        </aside>
     </div>
     <iframe class="iframe_footer" src="./footer.html"></iframe>
 </body>
+
 </html>
-=======
-            <section>
-                <h2>Tablas</h2>
-                <p>Ejemplo de tabla del uso de los navegadores</p>
-                <caption>Uso de los navegadores a lo largo en los ultimos años</caption>
-                <table class="main_table" border="1">
-                    <tr>
-                        <td></td>
-                        <td>2017</td>
-                        <td>2018</td>
-                        <td>2019</td>
-                    </tr>
-                    <tr>
-                        <td>Google Chrome</td>
-                        <td>55%</td>
-                        <td>35,76%</td>
-                        <td>39%</td>
-                    </tr>
-                    <tr>
-                        <td>Mozilla Firefox</td>
-                        <td>3%</td>
-                        <td>7,21%</td>
-                        <td>9,34%</td>
-                    </tr>
-                    <tr>
-                        <td>UC Browser</td>
-                        <td>4,41</td>
-                        <td>32,7%</td>
-                        <td>6,16</td>
-                    </tr>
-                    <tr>
-                        <td>Safari</td>
-                        <td>15,13</td>
-                        <td>20,37%</td>
-                        <td>44%</td>
-                    </tr>
-                    <tr>
-                        <td>Internet explorer</td>
-                        <td>2,2%</td>
-                        <td>11,7%</td>
-                        <td>7,5%</td>
-                    </tr>
-                    <tr>
-                        <td>Opera</td>
-                        <td>1,5%</td>
-                        <td>13,2%</td>
-                        <td>4,32%</td>
-                    </tr>
-                    <tr>
-                        <td>Otros</td>
-                        <td>7,85%</td>
-                        <td>9%</td>
-                        <td>10%</td>
-                    </tr>
-                </table>
-
-                <p>Ejemplo de Tabla irregular</p>
-
-                <table class="main_table" border="1">
-                    <tr>
-                        <th rowspan="2" colspan="2" scope="colgroup">
-                            <p>Preferencias de viajes</p>
-                        </th>
-                        <th colspan="3" scope="colgroup">
-                            <p>Destinos</p>
-                        </th>
-
-                    </tr>
-                    <tr>
-                        <th scope="col">
-                            <p>Caribe</p>
-                        </th>
-                        <th scope="col">
-                            <p>Europa</p>
-                        </th>
-                        <th scope="col">
-                            <p>Oriente</p>
-                        </th>
-
-                    </tr>
-                    <tr>
-                        <th rowspan="3" scope="rowgroup">Rangos de edad</td>
-                        <th scope="row">
-                            <p>Menores de 18 años</p>
-                            </t>
-                        <td>
-                            <p>38%</p>
-                        </td>
-                        <td>
-                            <p>25%</p>
-                        </td>
-                        <td>
-                            <p>36%</p>
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <th scope="rowgroup">
-                            <p>Entre 18 y 30</p>
-                        </th>
-                        <td>
-                            <p>32%</p>
-                        </td>
-                        <td>37%</td>
-                        <td>
-                            <p>24%</p>
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <th scope="rowgroup">Mayores de 30</th>
-                        <td>
-                            <p>30%</p>
-                        </td>
-                        <td>
-                            <p>38%</p>
-                        </td>
-                        <td>
-                            <p>40%</p>
-                        </td>
-                    </tr>
-                </table>
-
-
-
-        </main>
-        </section>
-        <section id="forms">
-            <header>
-                <h2>Formularios</h2>
-            </header>
-            <p>Los formularios se incluyen dentro de la etiqueta forms</p>
-            <p>En ellos se utilizan los siguientes controles</p>
-            <ul>
-
-                <li>Imput - text</li>
-                <li>text area</li>
-                <li>checkbox</li>
-                <li>radio buttons</li>
-                <li>select /options</li>
-                <li>botones</li>
-
-            </ul>
-            <p>La etiqueta form tiene dos atributos importantes</p>
-            <ul>
-                <li>action</li>
-                <li>method</li>
-            </ul>
-            <h3>Formulario minimo</h3>
-            <p>Ejemplo de los elementos minimos de un formulario y uno de los distintos metodos:GET y POST</p>
-            <h4>Uso de Get</h4>
-            <form action="" method="GET" name="basic-get">
-                <input type="text" name="userName" placeholder="Nombre y Apellidos">
-                <input type="password" name="pass" placeholder="password">
-                <button type="submit">Enviar</button>
-            </form>
-
-            <h4>Uso de POST</h4>
-            <form action="https://jsonplaceholder.typicode.com/users" method="POST" name="basic-post">
-                <input type="text" name="userName" placeholder="Nombre y Apellidos">
-                <input type="password" name="pass" placeholder="password">
-                <button type="submit">Enviar</button>
-            </form>
-
-            <head>Formulario completo</head>
-            <p>Usamos en un mismo formulario </p>
-            <form action="https://jsonplaceholder.typicode.com/users" method="POST">
-
-                <fieldset>
-                    <legend class="legend_form">Datos personales</legend>
-                    <label for="userName">Nombre</label>
-                    <input id="userName" class="form_control" type="text" name="userName">
-                    <input class="form_control" type="password" name="Pass" placeholder="Contraseña">
-                    <input class="form_control" type="email" name="email" placeholder="Correo electrónico">
-                    <textarea class="form_control" name="info" id="info" rows="5"
-                        placeholder="Mas información"></textarea>
-                </fieldset>
-                <fieldset>
-                    <legend class="legend_form">Condiciones</legend>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero praesentium accusantium alias quo
-                        officia dignissimos voluptatum voluptatem, repellendus similique nihil nemo assumenda odit
-                        accusamus deserunt maxime dolore quod aliquam ipsum!</p>
-                    <input class="form_control" type="checkbox" name="isOk" id="isOk">
-                </fieldset>
-                <fieldset>
-                    
-                    <legend class="legend_form">Datos del curso</legend>
-                    <label for="curso" class="form_label">Curso</label>
-                    <select name="curso" id="curso" class="form_label">
-                <optgroup label="Front">
-                    <option value="HTML-01">Diseño web</option>
-                    <option value="CSS-02">Diseño gráfico</option>
-                    <option value="JS-03">Programación Java</option>
-                   </optgroup>
-                   <optgroup label="Back">
-                       <option value="Node-04">Node JS</option>
-                       <option value="PHP-05">PHP</option>
-                   </optgroup>
-
-                <p>Ubicaciones</p>
-                <input type=>
-                </select>
-                </fieldset>
-
-                <button type="submit">Enviar</button>
-
-            </form>
-
-        </section>
-
-        <aside>
-            <h2>Publicidad</h2>
-            <p>D-Fly Services</p>
-        </aside>
-
-    </div>
->>>>>>> 6e9a0e8104324d14da5851ef3055336c15e0cd7e

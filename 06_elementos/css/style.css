@@ -1,149 +1,179 @@
 body {
     margin: 0;
-
     font-family: 'Lato', sans-serif;
-
 }
 
 .main_header {
+    font-family: 'Baloo Bhai', cursive;
     background-color: brown;
     color: bisque;
-  margin-top: -1rem;
-  
+    padding: 0.8rem 0rem 0.5rem 2rem 
+}
+
+.main_header p {
+    font-size: 1.33rem;
+    font-weight: bold;
+    margin-top: -1rem;
+    margin-bottom: 0;
 }
 
 .main_header nav {
-    font-family: 'Baloo Bhai', cursive;
-    margin-left: -1rem;
-
+    margin-left: -1rem
 }
 
 .main_header nav ul {
-list-style-type: none;
-margin: 0%;
-padding: 0%
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .main_header nav li {
     display: inline-block;
-
 }
-
 .main_header nav a {
- color: inherit;
- text-decoration: none;
- display: block;
- padding: 1rem;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
 
 }
 
-
-
-h1 {font-size: 3rem;
-font-weight: normal;
- }
-
-    .main_footer  {
-    background-color: brown;
-    color: bisque;
-    text-align: center;
-    padding: -1rem;
-}
-
-   .main_footer aside ul {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    
-    }
-    
-    .main_footer aside li {
-        display: inline-block;
-    
-    }
-    
-    .main_footer aside a {
-     color: inherit;
-     text-decoration: none;
-     display: block;
-     padding: 1rem, 0.2rem; 
-    
-    }
-    
 .content_wrapper {
     margin: 1rem 3rem;
+}
 
-    }
-    .image_wrapper {
-        margin: 0%
-        text-align: center;
-    }
-    img {
-        max-width: 100%;
-    }
-    .pre_no_mono {
-        font-family: inherit;
-    }
 
-    blockquote {
-      
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        margin-left: 0%;
-        margin-right: 0px;
+.main_section_footer {
+    text-align: right;
+    color: brown;
+    font-size: 1.5rem;
+}
 
-        
-        
-    }
+.image_wrapper {
+    margin: 0;
+    text-align: center;
+}
 
-    blockquote footer {
-        width: fit-content;
-        margin-top: 0.5rem;
-        padding-top: 0.3rem;
-        border-top: 1px solid gray;
-    }
-        
+img {
+   max-width: 100%;
+   /* width: 100% */
+   /* display: inline-block */
+}
+
+.seccion_imagenes img {
+    max-width: 25%;
+    display: block;
+    float: left;
+    background-color: burlywood;
+}
+
+.image_wrapper_25 {
+    width: 25%;
+}
+.image_wrapper_50 {
+    width: 50%
+}
+.image_wrapper_75 {
+    width: 75%
+}
+
+.pre_no_mono {
+    font-family: inherit;
+}
+
+blockquote {
+    /* margin-inline-start: 0;
+    margin-inline-end: 0; */
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    border-left: 4px solid lightgrey;
+    /* font-style: italic; */
+}
+
+blockquote footer {
+    width: fit-content;
+    margin-top: 0.5rem;
+    padding-top: 0.3rem;
+    border-top: 1px solid gray;
+}
+/* ul {
+    list-style-type: decimal;
+}
+ol {
+    list-style-type: disc
+} */
+
 .dt {
     float: left;
-    clear: left ;
+    clear: left;
 }
+
 .dd {
-    float: left;
-    clear: left ;
+   float: left;
+   clear: right;
 }
+
 .clearfix {
     clear: both;
 }
+
+.iframe_footer {
+    width: 100%;
+    height: 20vh;
+    border: none; 
+    background-color: brown;
+}
+
 footer a {
     color: inherit;
 }
 
-.verde{
-    color: chartreuse;
-    font-weight: bold
-    
+.main_footer p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.main_footer {
+    background-color: brown;
+    color: bisque; 
+    text-align: center;
+    padding: 1rem;
+}
+
+.main_footer aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main_footer aside li {
+    display: inline-block;
+}
+.main_footer aside a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 1rem 0.2rem;
+}
+
+.verde {
+    color: green;
+    font-weight: bold;
+}
+
+.palabra_rota {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* strong {
-    font-weight: normal
+    font-weight: normal;
 } */
-img {
-    max-width: 100%;
-    /* width: 100%; */
-    display: inline-block
-}
-
-.seccion_imagenes img{
-    max-width: 25%;
-    display: block;
-    float: left;
-    background-color: burlywood
-}
 
 .web_externa {
     width: 100%;
-    height: 60vh
+    height: 60vh;
 }
 
 .embed-container {
@@ -160,36 +190,98 @@ img {
     height: 100%;
 }
 
-vide0, embed {
+video, embed {
     max-width: 100%;
 }
 
-.iframefooter {
-    width: 100%;
-    height: 3vh;
-    border: none;
+.sin-borde {
+    border:0;
 }
-.sinborde {
-    border: 0ch
+
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
 }
-.main_table {
+
+.main_table,
+.viajes_table {
     width: 100%;
-text-align: center;
+    text-align: center; 
+}
+.main_table>tbody>tr>th{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+/* filas pares */
+.main_table>tbody>tr:nth-of-type(even) {
+    background-color: beige
+}
+/* filas impares */
+.main_table>tbody>tr:nth-of-type(odd) {
+    background-color: darkseagreen
+}
+
+.viajes_table th {
+    border: 1px solid grey;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+/* filas pares celdas de datos */
+.viajes_table tr:nth-of-type(even) td {
+    background-color: goldenrod
+}
+/* filas impares celdas de datos */
+.viajes_table tr:nth-of-type(odd) td {
+    background-color: coral
 }
 
 .form_control {
     display: block;
-    widows: 100%;
+    width: 100%;
     border: none;
     border-bottom: 1px solid gray;
-    padding-top: 1rem;
-    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.2rem;
     margin-bottom: 1rem;
-
-    
 }
 
+.radio_wrapper {
+    padding-top: 0.7rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.placeholder {
+    color: brown;
+    background-color: bisque;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.form_control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: brown;
+    opacity: 1; /* Firefox */
+  }
+  
+  .form_control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: brown;
+  }
+  
+  .form_control::-ms-input-placeholder { /* Microsoft Edge */
+    color: brown;
+  }
+
 .form_label {
+    display: block;
     margin-top: 1rem;
+}
+
+fieldset {
+    margin-bottom: 1rem;
     border-color: bisque;
+}
+.canvas {
+    width: 400 px;
+    height: 400 px;
+    border: 1px solid coral;
+    background-color: bisque;
 }
