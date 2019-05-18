@@ -1,6 +1,11 @@
 #cabeceraweb {
-    background-color: red;
+    background-color:rgb(74, 139, 79);
 }
-body {
-    background-color: salmon;
+
+#navegacionprincipal {
+    background-color: blueviolet;
+}
+#noticia3 {
+    background-color: brown;
+ 
 }
