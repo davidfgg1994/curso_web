@@ -1,4 +1,11 @@
 footer {
     background-color: brown;
-    color: bisque
+    color: bisque;
+}
+footer p {
+    font-style: italic;
+}
+
+footer adress {
+    
 }
