@@ -3,7 +3,7 @@ Estilos del Header
 **********/
 
 
-header {
+body>header {
     background-color: brown;
     color: bisque;
 }
@@ -13,9 +13,7 @@ header {
 
 /* sELECTOR DE HIJO (CHILD)*/
  /*SELECTOR DE DESCENDIENTES (DESCENDENT)-simbolo del espacio*/ 
- .combinadores p {
-    background-color: burlywood;
-}
+ 
 /* SELECTOR DE HERMANOS (SIBILINGS)el simbolo de ~ */
 .combinadores div~p {
     background-color: blue;
@@ -54,12 +52,12 @@ header {
  Estilos del footer 
  *********/
 
- footer {
+ body>footer {
     background-color: brown;
     color: bisque;
 
  }
- footer address {
+ body>footer address {
      font-style: normal;
  }
 
@@ -117,4 +115,36 @@ body {
 .comillas p::after {
     content: close-quote;
 
+}
+/*****************
+Estilos de las secciones pseudo-clases
+*********** */
+
+.pseudo-clases header {
+    background-color: gray;
+
+     text-align: center;
+}
+
+.pseudo-clases header div {
+    display:none;
+    padding: 1rem;
+}
+
+
+.pseudo-clases header:hover div {
+    display: initial;
+}
+.pseudo-numericas>p:nth-last-of-type(2)  {
+    text-decoration: underline
+}
+.pseudo-numericas li:nth-of-type(2n) {
+    background-color: bisque;
+}
+.pseudo-numericas li:nth-of-type(2n+1) {
+    background-color: rgb(209, 243, 183);
+}
+
+*:not(p) {
+text-transform:;
 }
