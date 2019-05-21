@@ -26,26 +26,27 @@ header {
 
 }
 /* Selector de Atributo - simbolo []*/
-[title] {
+.atributos[title] {
     color: crimson;
 }
 /* Atributo igual a */
-[title="Extra"] {
+.atributos [title="Extra"] {
     color: blue;
 }
 /* Atributo igual a empieza por */
 
-[title^="Par"] {
+.atributos [title^="Par"] {
     color: darkgreen;
 }
 
 /* Atributo contiene */
-[title*="rraf"] {
+.atributos [title*="rraf"] {
     color: magenta
 }
 /* atributo igual a termina por */
-[tittle$="1"] {
+.atributos [tittle$="1"] {
     color: gold;0
+
 
 }
 
@@ -66,4 +67,54 @@ header {
     margin-top: 0;
     margin-bottom: 0;
  }
+/****************************************************
+ estilos de la seccion .pseudo-elementos y numerados
+ ****************************************************/
+ .pseudo-elementos p::first-letter {
+     font-size: 3rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .pseudo-elementos p::first-line {
+     font-style: italic;
+     font-weight: bold;
+ }
+ .pseudo-elementos .medio {  
+     color: brown;
+}
+.pseudo-elementos .medio::before,
+.pseudo-elementos .medio::after
+{
+    content:"Muy importante";
+    display: block;
+    background-color: bisque;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
 
+}
+.banda{
+    content: "Muy importante";
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+body {
+    counter-reset: parrafos;
+}
+.numerados p::before{
+    counter-increment: parrafos;
+    content: counter(parrafos, lower-greek) "-";
+    font-weight: bold;
+}
+
+
+.comillas  {
+    quotes:"\00AB" "\00BB";
+}
+.comillas p::before {
+    content: open-quote;
+    
+}
+
+.comillas p::after {
+    content: close-quote;
+
+}
