@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'octin';
+    src: url(../assets/fonts/octin\ prison\ rg.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+background-color:rgb(255, 255, 224);
+}
+
+.imagen_amsterdam {
+    width: 45%;
+    display: block;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 5%;
+}
+.menu li{
+ display: inline-block;
+ background-color: brown;
+ padding: 1rem 3rem;
+margin-left: auto;
+margin-right: auto;
+color:rgb(255, 255, 224);
+
+}
+.menu ul {
+     text-align: center;
+}
+.tabla {
+    border-spacing: 5px;
+    text-align: center;
+    width: 50%;
+
+}
+th  {
+    background: brown;
+    color:rgb(255, 255, 224);
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+td {
+    border: double 3px;
+
+}
+
+header .banner {
+font-family:'octin';
+color: rgb(163, 0, 0);
+font-size: 3rem;
+background-image: url(/Amsterdam/assets/media/Holanda_banner.png)
+}
+

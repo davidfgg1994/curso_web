@@ -1,0 +1,8 @@
+header {
+    min-height: 50vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center; /* horizontal*/
+    align-items: center; /*vertical*/
+    background-image: url(/14_fondos/assets/img105.jpg);
+}

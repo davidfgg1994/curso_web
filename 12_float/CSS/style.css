@@ -1,11 +1,8 @@
-.image-wrapper {
-    width:50%;
-    float: left;
-    padding-right: 2rem;
-    
-}
-img {
-    max-width: 100%;
-    border-radius: 25px;
 
+}
+.imagen_amsterdam {
+    width: 45%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto
 }
