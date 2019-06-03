@@ -1,0 +1,53 @@
+/*ejemplo de import asociado a una media Query*/
+/*
+@import url(./css/header.css) screen and (max-device-width: 500px);
+@import url(./css/footer.css);*/
+
+/*Otras directivas son 
+@front-face
+@keyframes
+@userspace
+@page
+@supports
+@document
+*/
+
+header {
+    background-color: brown;
+    color: bisque;
+}
+footer { 
+    background-color: brown;
+    color: bisque;
+
+}
+body {
+    background-color: bisque;
+}
+
+.azul {
+    color: blue
+}
+
+/*selector de id: no se usa por buenas prácticas*/
+#verde {
+    color: green
+}
+/*p, blockquote ( font-size: 1.1rem)
+p {font-size:1.1remº    }
+*/
+/*SELECTORES COMBINADOS (ANTES SELECTORES CONTEXTUALES)*/
+/* sELECTOR DE HIJO (CHILD)*/
+ /*SELECTOR DE DESCENDIENTES (DESCENDENT)-simbolo del espacio*/ 
+ .combinadores p {
+     background-color: burlywood;
+ }
+ /* SELECTOR DE HERMANOS (SIBILINGS)*/
+ /* SELECTOR DE ADYACENTES */
+/*Forma más habitual de usar media Queries*/
+@media screen and (max-device-width: 500px); {
+
+    body {
+         background-color:coral
+}
+}
