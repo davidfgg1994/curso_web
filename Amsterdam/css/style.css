@@ -2,51 +2,72 @@
     font-family: 'octin';
     src: url(../assets/fonts/octin\ prison\ rg.ttf) format('truetype');
     font-weight: normal;
-    font-style: normal;
-    text-align: center;
-    
+    font-style: normal; 
 }
+@font-face {
+    font-family: 'alegreya';
+    src: url(../assets/fonts/AlegreyaSC-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+    }
 #cabeceraweb {
     background-color: rgba(250, 152, 61, 0.623);
     width: 100%;
-    margin-bottom: 1%;
+    background-image: url(../assets/camping-holanda-banner.png);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+
 }
 .cabecera2 {
     background:linear-gradient(
         to left,
-        rgb(255, 252, 86),
-        rgb(255, 136, 0));
+        rgb(255, 255, 224),
+        rgb(163, 0, 0));
     margin-bottom: 1rem;
-    margin top: -1rem;
-    color: antiquewhite;
-    
+    margin-top: -1rem;
+    color: rgb(255, 197, 88) ;
+
+  font-family: 'alegreya';
+ padding: 0.8rem;
+ background-size: contain, cover;
+margin-left: -3rem;
+margin-top: 0
+
+
+
 
 }
 
 body {
 background-color:rgb(255, 255, 224);
+margin: 0
 }
 
 .imagen_amsterdam {
-width: 35%;
+width: 20%;
 display: block;
 float: left;
 margin-right: 1rem;
 border-radius: 5%;
 }
-.menu li{
+.menu li  {
 display: inline-block;
 background-color: brown;
-padding: 1rem 3rem;
+
 margin-left: 0%;
 margin-right: 0%;
 color:rgba(253, 187, 124, 0.897);
 margin-bottom: 1%;
+text-decoration: none;
 
 }
+
 .menu ul {
      text-align: center;
      margin-bottom: 0%;
+     
 
 }
 .tabla {
@@ -70,14 +91,16 @@ td {
 
 header .banner {
 font-family:'octin';
-color: rgb(163, 0, 0);
+color: rgb(189, 0, 0);
+-webkit-text-stroke: 0.01px rgb(255, 196, 0);
 height: 100%;
-font-size: 3rem;
+font-size: 5rem;
 background-image: url(/Amsterdam/assets/media/Holanda_banner.png);
 text-align: center;
 margin-top: 0%;
 margin-bottom: 2%;
 width: 100%;
+
 
 }
 
@@ -87,14 +110,42 @@ p {
 }
 
 .plaza_dam {
-width: 35%;
+width: 24%;
 display: block;
 float: right;
-margin-right: 1rem;
 border-radius: 5%;
+margin-left: 1rem;
     
 }
 header {
     font-family: 'alegreya'
-    b
+    
+}
+.menu li a:hover {
+    background-color:rgba(253, 187, 124, 0.897) ;
+    color: rgb(163, 0, 0);
+    font-size: 1.3rem
+    
+
+}
+.main header {
+    background-image: url(../assets/camping-holanda-banner.png)
+}
+.menu {
+    text-align: center;
+    
+ 
+}
+.menu li a {
+    text-decoration: none;
+    color: rgba(253, 187, 124, 0.897);
+    display: block;
+    padding: 20px 70px;
+    
+}
+.main1 {
+    margin: 0 40px;
+}
+.tabla1 {
+    display: block;
 }

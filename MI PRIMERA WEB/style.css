@@ -11,6 +11,7 @@ body {
 
 .main_header {
     background-color: brown;
+    background-image: url(./assets/camping-holanda-banner.png)
 }
 img {
   display: block;
