@@ -1,0 +1,18 @@
+main header  {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background-color: rgb(213, 255, 213);
+}
+.titulo {
+
+}
+
+.main_header {
+    background-color: brown;
+}
+img {
+  display: block;
+  margin: auto;
+}
