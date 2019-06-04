@@ -73,7 +73,7 @@ text-decoration: none;
 .tabla {
     border-spacing: 5px;
     text-align: center;
-    width: 50%;
+    width: 100%;
 
 }
 th  {
@@ -148,4 +148,11 @@ header {
 }
 .tabla1 {
     display: block;
+}
+.mapa_amsterdam {
+    width: 18%;
+    float: right;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: 0.2rem;
 }
