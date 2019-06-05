@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+header {
+    /* color: brown */
+    position: relative;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    /* justify-content:flex-start;
+    align-items: stretch; */
+
+   
+ }
+   
+header::after {
+    content:'';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    background-image: url(../assets/drones-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+div {
+border: 1px solid;
+ 
+flex: 1 1 auto;
+}
+.borde  {
+    border: 1px;
+}
+
+div.superior {
+
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+div.menu-wrapper {
+    /* flex: 0 1 auto; */
+    display: flex;
+    align-items: center;
+
+}
+
+div.logo-wrapper {
+    /* flex: 0 1 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: 
+
+}
+
+div.inferior {
+    flex: 8 1 auto;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+
+}
+h1 {
+    color: rgb(134, 0, 0);
+    z-index: 20;
+}
+.menu a {
+    background-color: ;
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    display: block;
+    padding: 20px 70px;  
+    border-radius: 10%;
+    margin: 5px;
+    -webkit-box-shadow: 9px -1px 10px -5px rgba(33,0,0,0.46);
+    background: linear-gradient(rgb(240, 0, 20),rgb(75, 1, 1))
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav.icon {
+
+}
