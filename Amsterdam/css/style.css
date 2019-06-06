@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'octin';
-    src: url(../assets/fonts/octin\ prison\ rg.ttf) format('truetype');
+    font-family: 'hamlet';
+    src: url(../assets/fonts/Hamlet-Cicero12.otf) format('truetype');
     font-weight: normal;
     font-style: normal; 
 }
@@ -20,6 +20,36 @@
     margin: 0
 
 }
+#cabecera_web_histo {
+    background-color: rgba(250, 152, 61, 0.623);
+    width: 100%;
+    background-image: url(../assets/antigua-postal-estacion-central-ferrocarril-amsterdam-holand-D_NQ_NP_346121-MLU20722472283_052016-F.jpeg);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+
+}
+
+#cabecera_web_visit {
+    background-color: rgba(250, 152, 61, 0.623);
+    width: 100%;
+    background-image: url(../assets/travel-694675_1920.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+
+}
+
+#cabecera_web_fiestas {
+    background-color: rgba(250, 152, 61, 0.623);
+    width: 100%;
+    background-image: url(../assets/fiestas_holanda.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+    
+}
+
 .cabecera2 {
     background:linear-gradient(
         to left,
@@ -74,6 +104,7 @@ text-decoration: none;
     border-spacing: 5px;
     text-align: center;
     width: 100%;
+    margin-bottom: 2rem;
 
 }
 th  {
@@ -90,9 +121,9 @@ td {
 }
 
 header .banner {
-font-family:'octin';
-color: rgb(189, 0, 0);
--webkit-text-stroke: 0.01px rgb(255, 196, 0);
+font-family:'hamlet';
+color: rgb(250, 250, 207);
+-webkit-text-stroke: 0.2px rgb(150, 0, 0);
 height: 100%;
 font-size: 5rem;
 background-image: url(/Amsterdam/assets/media/Holanda_banner.png);
@@ -157,3 +188,60 @@ header {
     margin-left: 0.2rem;
 }
 
+.vuelos {
+    width: 40%;
+    position: absolute;
+    margin-bottom: 30px;
+    
+}
+
+.tabla_demografica {
+    background:linear-gradient(
+        to left,
+        rgb(255, 255, 224),
+        rgb(163, 0, 0));
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    color: rgb(255, 197, 88) ;
+
+  font-family: 'alegreya';
+ padding: 0.8rem;
+ background-size: contain, cover;
+margin-left: -3rem;
+margin-top: 0
+
+}
+footer{
+    background-color: rgb(163, 0, 0);
+    color: whitesmoke;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 1.3rem;
+    align-items: flex-start;
+    text-align: center
+}
+
+footer:hover {
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+.overflow {
+    height: 40vh;
+    overflow: scroll;
+}
+
+.video {
+    float: right;
+    position: relative;
+    top: 0.5rem;
+    margin-bottom: 30px;
+
+}
