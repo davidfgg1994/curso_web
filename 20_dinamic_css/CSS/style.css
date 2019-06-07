@@ -1,0 +1,71 @@
+
+body {
+    margin-left: 200px
+
+}
+div {
+    background-color: rgb(221, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(.64,-0.38,.11,.96);
+  
+    
+}
+
+p.boton:hover+div {
+   color: rgb(255, 255, 255);
+   background-color: rgb(12, 139, 0); 
+   width: 6rem;
+   height: 6rem;
+   font-size: 3rem; 
+    border-radius: 50%;
+    font-family:fantasy;
+}
+
+p.btn-escalar:hover+div {
+    transform:scale(3)
+}
+
+p.btn-rotar:hover+div {
+    transform-origin: left ;
+    transform: rotate(80deg)
+
+}
+
+p.btn-inclinar:hover+div {
+    transform: skew(20deg)
+
+}
+
+p.btn-trasladar:hover+div {
+    transform-box:
+    transform: translate(5rem);
+   
+    
+
+}
+
+section.tresD {
+    perspective: 500px;
+}
+p.btn-3D:hover+div {
+ 
+    transform: translateZ(-100rem);
+
+}
+
+h1 {
+    position: relative;
+    left: -40rem;
+    transform: translateX(40rem);
+    transition: transform 4s;
+}
+div.superior nav.icon:hover {
+    transform: scale(2)
+}

@@ -2,93 +2,182 @@ body {
     margin: 0;
 }
 header {
-    /* color: brown */
+    /* color: brown; */
     position: relative;
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    /* justify-content:flex-start;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start;
     align-items: stretch; */
+}
 
-   
- }
-   
-header::after {
-    content:'';
+header::before {
+    content: '';
     display: block;
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.4;
+    z-index: 10;
+    opacity: 0.3;
     background-image: url(../assets/drones-banner-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 
-div {
-border: 1px solid;
- 
-flex: 1 1 auto;
-}
-.borde  {
-    border: 1px;
+.borde {
+    border: 1px solid;
 }
 
 div.superior {
-
     flex: 1 1 auto;
     display: flex;
     justify-content: space-between;
-
-}
-div.menu-wrapper {
-    /* flex: 0 1 auto; */
-    display: flex;
-    align-items: center;
-
+    margin-left: 2rem;
+    margin-right: 2rem;
+  
 }
 
-div.logo-wrapper {
-    /* flex: 0 1 auto; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: 
+    div.menu-wrapper {
+        /* flex: 0 1 auto; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-}
+    nav a {
+        color: inherit;
+        text-decoration: none;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav.icon {
+        color: brown;
+        font-size: 4rem;
+
+    }
+
+    div.logo-wrapper {
+        flex: 0 1 auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .logo-wrapper img {
+        max-width: 10%;
+        min-width: 80px;
+        align-items: flex-end;
+    }
 
 div.inferior {
-    flex: 8 1 auto;
+    flex: 10 1 auto;
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
+}
+nav.footer {
+    color: brown;
+    background-color: rgba(200,200,200,0.5);	
+    border: 1px solid #ba89a8; /*violeta*/
+    width: 90%;
+    margin: 1rem auto;
 
 }
+nav.footer>ul>li {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: bold
+}
+
+nav.footer>ul>li>ul>li {
+    font-size: 1rem;
+    font-weight: normal;
+
+
+}
+
+.content-wrapper {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    
+}
+footer {
+    min-height: 10vh;
+    background-color: brown;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 h1 {
-    color: rgb(134, 0, 0);
-    z-index: 20;
-}
-.menu a {
-    background-color: ;
-    text-decoration: none;
-    color: rgb(236, 236, 236);
-    display: block;
-    padding: 20px 70px;  
-    border-radius: 10%;
-    margin: 5px;
-    -webkit-box-shadow: 9px -1px 10px -5px rgba(33,0,0,0.46);
-    background: linear-gradient(rgb(240, 0, 20),rgb(75, 1, 1))
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0;
+    z-index: 30;
+    width: fit-content;
+    text-align: center;
+    padding: 2rem;
     margin: 0;
 }
-nav.icon {
-
+.icon {
+    z-index: 30;
+    color: inherit;
+   
 }
+
+@media screen and (min-width: 500px) {
+    .content-wrapper { 
+       
+        margin-left: 2rem;
+        margin-right: 2rem;
+        
+    }    
+}
+
+@media screen and (min-width: 650px) {
+    
+    .content-wrapper {
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+}
+    nav.icon,
+    nav.footer {
+        display: none;
+    }
+    nav.horizontal {
+        display: flex;
+    }
+
+
+@media screen and (min-width: 800px) {
+
+
+  .content-wrapper { 
+       
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+}
+    section {
+        width: 50%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        
+    }       
+    div.superior nav.horizontal {
+        display: initial;
+    }
+
+    nav.horizontal ul {
+        display: flex;
+    }
