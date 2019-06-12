@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm -v",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass SASS/:CSS/ --watch --no-source-map"
+    "sass": "sass SASS/:CSS/ --watch --no-source-map",
+   
   },
   "keywords": [],
   "author": "",
