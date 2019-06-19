@@ -261,7 +261,26 @@ div.columnas {
 .columna2, .columna3 {
     margin-top: -1rem;
 }
-div.padding{
-    padding-bottom: ;
 
+
+div.centrado {
+    align-items: center;
+    text-align: center;
 }
+
+.guerra {
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid rgb(231, 170, 0); 
+    float: top right; 
+    width: 500px;
+}
+
+.canales_amsterdam {
+    width: 20%;
+    display: block;
+    float: left;
+    border-radius: 5%;
+    margin-right: 1rem;
+        
+    }
